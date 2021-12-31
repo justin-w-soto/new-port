@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+* {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: #fdfdf1;
+  position: relative;
+	min-height: 100vh;
+  font-family: 'Signika Negative', sans-serif;
+  font-family: 'Spartan', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header {
+  background: #1b1f1f;
+  color: #A7BEAE;
+  display: flex;
+  height: 18rem;
+  width: 100vw;
+  justify-content: space-between;
+  box-shadow: 0rem .5rem 1rem rgb(158, 157, 157);
+  position: fixed;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+li {
+  list-style: none;
+  display: inline;
+  font-size: 2rem;
+  padding: 1rem;
+
+}
+
+a {
+  text-decoration: none;
+  color: #A7BEAE
+}
+
+a:hover {
+  color:aquamarine;
+}
+
+a:active {
+  color: tomato;
+}
+
+h1 {
+  color: rgb(23, 24, 24)
+}
+
+.nav-links {
+  padding-top: 14rem;
+  padding-right: 3rem
+}
+
+.logo {
+ height: 20rem 
+}
+
+.bg-img {
+  height: 100vh;
+  background: no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.port-head {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  justify-content: flex-start;
+  align-content: center;
+  margin-top: 20rem;
+  font-size: 4rem;
 }
