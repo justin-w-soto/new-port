@@ -3,10 +3,9 @@ import React from 'react'
 export const About = () => {
     return (
         <>
-       
-       <div className='about'>
-            <h1>About Page</h1>
-        </div>
+            <span className="container">
+                <h1 className='port-head'>About Page</h1>
+            </span>
         </> 
     )
 }

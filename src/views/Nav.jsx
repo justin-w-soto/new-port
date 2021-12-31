@@ -6,7 +6,7 @@ export const Nav = () => {
     return (
         <div>
             <header>
-                <img className='logo' src="../JW Soto 8.png" alt="logo" />
+                <img  src="../logo.png" alt="logo" />
                 <ul className='nav-links'>
                     <Link to="/">
                         <li>Home</li>
@@ -23,7 +23,6 @@ export const Nav = () => {
                 </ul>
         </header>
 
-        {/* <footer></footer> */}
         </div>
     )
 }

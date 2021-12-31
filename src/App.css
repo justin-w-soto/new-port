@@ -12,7 +12,7 @@ body {
   font-family: 'Spartan', sans-serif;
 }
 
-header, footer {
+header {
   background: #1b1f1f;
   color: #A7BEAE;
   display: flex;
@@ -36,8 +36,12 @@ a {
   color: #A7BEAE
 }
 
-footer {
-  color: #A7BEAE;
+a:hover {
+  color:aquamarine;
+}
+
+a:active {
+  color: tomato;
 }
 
 h1 {
