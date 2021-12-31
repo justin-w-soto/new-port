@@ -6,12 +6,8 @@ export const Nav = () => {
     return (
         <div>
             <header>
-                <h3>JW SOTO</h3>
-              
-        </header>
-
-        <footer>
-        <ul>
+                <img className='logo' src="../JW Soto 8.png" alt="logo" />
+                <ul className='nav-links'>
                     <Link to="/">
                         <li>Home</li>
                     </Link>
@@ -25,7 +21,9 @@ export const Nav = () => {
                     </Link>
                     
                 </ul>
-        </footer>
+        </header>
+
+        {/* <footer></footer> */}
         </div>
     )
 }
