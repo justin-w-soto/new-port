@@ -3,23 +3,24 @@
   margin-left: 0;
   margin-right: 0; 
 }
+
 body {
   background: #fdfdf1;
   position: relative;
 	min-height: 100vh;
-
+  font-family: 'Signika Negative', sans-serif;
+  font-family: 'Spartan', sans-serif;
 }
 
 header, footer {
-  background: #0e1010;
-  font-family: 'Signika Negative', sans-serif;
-  font-family: 'Spartan', sans-serif;
+  background: #1b1f1f;
   color: #A7BEAE;
   display: flex;
   height: 18rem;
   width: 100vw;
   justify-content: space-between;
-
+  box-shadow: 0rem .5rem 1rem rgb(158, 157, 157);
+  position: fixed;
 }
 
 li {
@@ -37,17 +38,40 @@ a {
 
 footer {
   color: #A7BEAE;
-  
-  
+}
+
+h1 {
+  color: rgb(23, 24, 24)
 }
 
 .nav-links {
   padding-top: 14rem;
   padding-right: 3rem
-  
 }
 
 .logo {
  height: 20rem 
- 
+}
+
+.bg-img {
+  height: 100vh;
+  background: no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.port-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  margin-top: 20rem;
+  font-size: 4rem;
 }

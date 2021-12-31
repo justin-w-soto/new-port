@@ -5,7 +5,7 @@ export const About = () => {
         <>
        
        <div className='about'>
-            <h4>About Page</h4>
+            <h1>About Page</h1>
         </div>
         </> 
     )
