@@ -18,10 +18,10 @@ export const About = () => {
             </div>
             <div className='work-links'>
                     <ul>
-                        <li><a className="links"  href='http://www.github.com'>github</a></li>
-                        <li><a className="links"  href='http://www.github.com'>linkedin</a></li>
-                        <li><a className="links"  href='http://www.github.com'>twitter</a></li>
-                        <li><a className="links"  href='http://www.github.com'>resume</a></li>
+                        <li><a className="links"  href='https://github.com/justin-w-soto'>github</a></li>
+                        <li><a className="links"  href='https://www.linkedin.com/in/justinwsoto/'>linkedin</a></li>
+                        <li><a className="links"  href='mailto:justinwsoto@gmail.com'>email</a></li>
+                        <li><a className="links"  href='https://drive.google.com/file/d/1Ir9kZVlqI6k8lxDOplsMQ5oa-j4xVEi1/view?usp=sharing'>resume</a></li>
                     </ul>
             </div>       
                 
