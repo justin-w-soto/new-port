@@ -6,7 +6,7 @@ export const Nav = () => {
     return (
         <div>
             <header>
-                <img  src="../logo.png" alt="logo" />
+                <img  className='logo' src="../logo.png" alt="logo" />
                 <ul className='nav-links'>
                     <Link to="/">
                         <li>Home</li>
