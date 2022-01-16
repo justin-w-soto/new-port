@@ -9,15 +9,15 @@ export const Nav = () => {
                 <img  className='logo' src="../logo.png" alt="logo" />
                 <ul className='nav-links'>
                     <Link to="/">
-                        <li>Home</li>
+                        <li className='header-links'>Home</li>
                     </Link>
 
                     <Link to="/portfolio">
-                    <li>Portfolio</li>
+                    <li className='header-links'>Portfolio</li>
                     </Link> 
                     
                     <Link to="/about">
-                    <li>About</li>
+                    <li className='header-links'>About</li>
                     </Link>
                     
                 </ul>

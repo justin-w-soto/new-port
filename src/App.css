@@ -17,10 +17,11 @@ body {
 header {
   background: #222727;
   display: flex;
-  height: 30vh;
+  height: 40vh;
   width: 100vw;
-  justify-content: space-between;
   position: fixed;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 
 h1 {
@@ -38,11 +39,6 @@ li {
 
 a {
   text-decoration: none;
-  color: #8aa7a5;
-}
-
-a:hover {
-  color:aquamarine;
 }
 
 a:active {
@@ -53,18 +49,24 @@ a:active {
 /* CLASSES */
 
 .nav-links {
-  padding-top: 5%;
-  margin: 5%;
+  margin-top:5%;
+  margin: 5% 5%;
   display: flex;
   flex-wrap: wrap;
-  color: white;
 }
 
+.contact-links {
+  color: #262626;
+  padding: 1%;
+}
+
+.contact-links:hover {
+  color: tomato;
+  padding: 1%;
+}
 
 .logo {
-  height: 25vh;
-  padding: 1%;
-  margin-top:1vh;
+  height: 41vh;
 }
 
 .bg-img {
@@ -106,5 +108,13 @@ a:active {
   background-repeat: no-repeat; 
   align-self: center;
 
+}
+
+.header-links {
+  color: white
+}
+
+.header-links:hover {
+  color: tomato
 }
 
