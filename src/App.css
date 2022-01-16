@@ -7,7 +7,7 @@
 }
 
 body {
-  background: #fdfdf1;
+  background: #FAFAFA;
   position: relative;
 	min-height: 100vh;
   font-family: 'Signika Negative', sans-serif;
@@ -15,17 +15,18 @@ body {
 }
 
 header {
-  background: #1b1f1f;
-  color: #A7BEAE;
+  background: #222727;
   display: flex;
-  height: 30vh;
+  height: 40vh;
   width: 100vw;
-  justify-content: space-between;
   position: fixed;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 
 h1 {
-  color: rgb(23, 24, 24)
+  color: rgb(23, 24, 24);
+  font-size: 5rem;
 }
 
 li {
@@ -38,11 +39,6 @@ li {
 
 a {
   text-decoration: none;
-  color: #A7BEAE
-}
-
-a:hover {
-  color:aquamarine;
 }
 
 a:active {
@@ -53,17 +49,24 @@ a:active {
 /* CLASSES */
 
 .nav-links {
-  padding-top: 5%;
-  margin: 5%;
+  margin-top:5%;
+  margin: 5% 5%;
   display: flex;
   flex-wrap: wrap;
 }
 
+.contact-links {
+  color: #262626;
+  padding: 1%;
+}
+
+.contact-links:hover {
+  color: tomato;
+  padding: 1%;
+}
 
 .logo {
-  height: 25vh;
-  padding: 1%;
-  margin-top:1vh;
+  height: 41vh;
 }
 
 .bg-img {
@@ -88,20 +91,30 @@ a:active {
 }
 
 .about-heading {
-  height: 3rem;
+  color: #333333
 }
 
 .bio {
   font-size: 2rem;
+  color: #333333
   
 }
 
 .profile-pic {
   margin-top: 35vh;
-  width: 30rem;
-  height: 30rem;
+  width: 60rem;
+  height: 44rem;
   background-size:contain;
   background-repeat: no-repeat; 
   align-self: center;
+
+}
+
+.header-links {
+  color: white
+}
+
+.header-links:hover {
+  color: tomato
 }
 
