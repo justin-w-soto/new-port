@@ -18,7 +18,7 @@ body {
 header {
   background: #222727;
   display: flex;
-  height: 30vmin;
+  height: 20vmin;
   width: 100vw;
   position: fixed;
   align-items: flex-end;
@@ -50,7 +50,7 @@ a:active {
 /* CLASSES */
 
 .nav-links {
-  margin: 9vmax 10vmin;
+  margin: 1vmax 5vmin;
   display: flex;
   flex-wrap: wrap;
 }
@@ -66,7 +66,8 @@ a:active {
 }
 
 .logo {
-  width: 33vmin;
+  width: 25vmin;
+  margin-inline: 5rem 0rem;
   
 }
 
@@ -93,7 +94,7 @@ a:active {
 }
 
 .about-heading {
-  color: tomato
+  color: #333333
 }
 
 .bio {
@@ -103,7 +104,7 @@ a:active {
 }
 
 .profile-pic {
-  margin-top: 20vmin;
+  margin-top: 10vmin;
   width: 60rem;
   height: 44rem;
   background-size:contain;
