@@ -83,7 +83,6 @@ a:active {
   margin: 0 auto;
   width: 75vw;
   text-align:center;
-  
 }
 
 .work-links {
@@ -94,12 +93,13 @@ a:active {
 }
 
 .about-heading {
-  color: #333333
+  color: #333333;
 }
 
 .bio {
   font-size: 2rem;
-  color: #333333
+  color: #333333;
+  
   
 }
 
@@ -134,4 +134,14 @@ a:active {
   justify-content: center;
   align-content: center;
   margin-top: 35rem;
+}
+
+.video-container {
+  /* border: solid tomato 1px; */
+  width: 30vw;
+  margin: 0 auto;
+  padding: 2rem;
+  box-shadow: 0rem 1rem 2.5rem rgb(181, 185, 185);
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
