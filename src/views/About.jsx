@@ -14,10 +14,10 @@ export const About = () => {
                     that can help us make sense of the world. When I'm not working, you can find me 
                     outside. Likely in the forest, investigating local plant communities with camera in hand. 
                     It's my belief that technology can be used to better understand our environment and 
-                    create healthier communities. Let's work together; I'm always looking for new challenges to take on!
+                    create healthier communities. Let's work together!
                 </p>
             </div>
-            <div className='work-links'>
+            <div className='work-links' aria-label='navigation-links-to-other-sites'>
                     
                         <a className="contact-links"  href='https://github.com/justin-w-soto'>github</a>
                         <a className="contact-links"  href='https://www.linkedin.com/in/justinwsoto/'>linkedin</a>
