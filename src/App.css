@@ -136,12 +136,13 @@ a:active {
   margin-top: 35rem;
 }
 
-/* .video-container {
-  width: 30vw;
-  margin: 0 auto;
-  padding: 2rem;
-  border-radius: 2rem;
-  box-shadow: 0rem 1rem 2.5rem rgb(181, 185, 185);
-  background: rgb(238, 224, 180);
-  background: radial-gradient(circle, rgb(224, 188, 204) 0%, rgb(212, 222, 233) 100%);
-} */
+
+
+.alcode-phone {
+ width: 100%;
+ margin-top: 35vmin;
+ 
+
+}
+
+
