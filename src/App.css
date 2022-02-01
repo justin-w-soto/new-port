@@ -81,7 +81,7 @@ a:active {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: 75vw;
+  width: 80vw;
   text-align:center;
 }
 
@@ -136,12 +136,12 @@ a:active {
   margin-top: 35rem;
 }
 
-.video-container {
-  /* border: solid tomato 1px; */
+/* .video-container {
   width: 30vw;
   margin: 0 auto;
   padding: 2rem;
+  border-radius: 2rem;
   box-shadow: 0rem 1rem 2.5rem rgb(181, 185, 185);
-  background: rgb(238,174,202);
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-}
+  background: rgb(238, 224, 180);
+  background: radial-gradient(circle, rgb(224, 188, 204) 0%, rgb(212, 222, 233) 100%);
+} */
